@@ -25,6 +25,15 @@ h1,
 h2 {
   color: #fff;
 }
+div img {
+  width: 300px;
+}
+p a {
+  vertical-align: middle;
+}
+p img {
+  width: 30px;
+}
 .top-flex {
   display: flex;
   flex-direction: row;
@@ -36,4 +45,18 @@ h2 {
 .round-picture {
   width: 200px;
   border-radius: 50%;
+}
+.main-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+.info-box {
+  width: 300px;
+  background-color: #e0e8f0;
+  padding: 1rem;
+  border-radius: 10px;
 }
