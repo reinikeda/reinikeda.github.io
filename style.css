@@ -46,6 +46,31 @@ p img {
   width: 200px;
   border-radius: 50%;
 }
+.auto-write h2 {
+  overflow: hidden;
+  border-right: 0.15em solid #09203f;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #09203f;
+  }
+}
 .main-flex {
   display: flex;
   flex-direction: row;
