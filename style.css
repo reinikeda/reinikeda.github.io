@@ -1,0 +1,39 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  background-color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 250px auto 50px;
+  grid-template-areas: "header" "main" "footer";
+}
+header {
+  background: linear-gradient(to right, #09203f, #537895);
+  background-size: cover;
+}
+footer {
+  font-size: 16px;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffff, #e0e8f0);
+}
+h1,
+h2 {
+  color: #fff;
+}
+.top-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+.round-picture {
+  width: 200px;
+  border-radius: 50%;
+}
