@@ -25,6 +25,10 @@ h1,
 h2 {
   color: #fff;
 }
+h4 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
 div img {
   width: 300px;
 }
@@ -70,6 +74,17 @@ p img {
   50% {
     border-color: #09203f;
   }
+}
+.clock-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #fff;
+  gap: 1rem;
+  padding: 2rem;
 }
 .main-flex {
   display: flex;
