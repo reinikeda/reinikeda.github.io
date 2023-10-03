@@ -1,8 +1,9 @@
-let slideIndex = [1, 1];
-let slideId = ["slides-1", "slides-2"];
+let slideIndex = [1, 1, 1];
+let slideId = ["slides-1", "slides-2", "slides-3"];
 
 showSlides(1, 0);
 showSlides(1, 1);
+showSlides(1, 2);
 
 function plusSlides(n, no) {
   showSlides((slideIndex[no] += n), no);

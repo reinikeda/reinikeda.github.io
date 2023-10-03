@@ -38,6 +38,9 @@ p a {
 p img {
   width: 30px;
 }
+a {
+  color: #09203f;
+}
 .top-flex {
   display: flex;
   flex-direction: row;
@@ -107,7 +110,7 @@ p img {
   flex-wrap: nowrap;
   position: relative;
 }
-.slides-1, .slides-2 {
+.slides-1, .slides-2, .slides-3 {
   display: none;
 }
 .button-container {
