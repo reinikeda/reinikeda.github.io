@@ -148,3 +148,33 @@ p img {
   from {opacity: .4}
   to {opacity: 1}
 }
+
+@media (max-width: 840px) {
+  body {
+    grid-template-rows: 300px auto 50px;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 12px;
+  }
+  .top-flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .round-picture {
+    width: 150px;
+  }
+  .clock-box {
+    font-size: 10px;
+  }
+  .main-flex {
+    gap: 0.5rem;
+    padding: 0.5rem;
+  }
+}
