@@ -31,6 +31,7 @@ h4 {
 }
 div img {
   width: 350px;
+  height: auto;
 }
 p a {
   vertical-align: middle;
@@ -117,13 +118,14 @@ a {
   position: absolute;
   left: 0;
   right: 0;
+  height: 100%;
 }
 .button {
   display: flex;
   align-items: center;
   cursor: pointer;
   position: absolute;
-  height: 350px;
+  height: 100%;
   padding: 0 16px 0 16px;
   color: #e0e8f0;
   font-weight: bold;
