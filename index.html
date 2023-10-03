@@ -5,7 +5,7 @@
     <title>Daiva Reinike portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
-    <script src="script.js"></script>
+    <script src="clock.js"></script>
   </head>
   <body>
     <header>
@@ -64,38 +64,43 @@
         <div class="info-box">
           <h3>PROJECT NAME</h3>
           <p>Description of the project</p>
-          <img src="img/example.jpg" />
+          <div class="slider-container">
+            <div class="slides-1 fade">
+              <img src="img/screenshots/example1.jpg" alt="first slide"/>
+            </div>
+            <div class="slides-1 fade">
+              <img src="img/screenshots/example2.jpg" alt="second slide"/>
+            </div>
+            <div class="slides-1 fade">
+              <img src="img/screenshots/example3.jpg" alt="third slide"/>
+            </div>
+            <div class="button-container">
+              <a class="button button-prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+              <a class="button button-next" onclick="plusSlides(1, 0)">&#10095;</a>  
+            </div>
+          </div>
           <p>Check code on: <a href="https://github.com/reinikeda" target="_blank"><img src="img/github.png" /></a></p>
         </div>
         <!-- PROJECT BOX -->
         <div class="info-box">
           <h3>PROJECT NAME</h3>
           <p>Description of the project</p>
-          <img src="img/example.jpg" />
-          <p>Check code on: <a href="https://github.com/reinikeda" target="_blank"><img src="img/github.png" /></a></p>
-        </div>
-        <!-- PROJECT BOX -->
-        <div class="info-box">
-          <h3>PROJECT NAME</h3>
-          <p>Description of the project</p>
-          <img src="img/example.jpg" />
-          <p>Check code on: <a href="https://github.com/reinikeda" target="_blank"><img src="img/github.png" /></a></p>
-        </div>
-        <!-- PROJECT BOX -->
-        <div class="info-box">
-          <h3>PROJECT NAME</h3>
-          <p>Description of the project</p>
-          <img src="img/example.jpg" />
-          <p>Check code on: <a href="https://github.com/reinikeda" target="_blank"><img src="img/github.png" /></a></p>
-        </div>
-        <!-- PROJECT BOX -->
-        <div class="info-box">
-          <h3>PROJECT NAME</h3>
-          <p>Description of the project</p>
-          <img src="img/example.jpg" />
+          <div class="slider-container">
+            <div class="slides-2 fade">
+              <img src="img/screenshots/example4.jpg" alt="first slide"/>
+            </div>
+            <div class="slides-2 fade">
+              <img src="img/screenshots/example5.jpg" alt="second slide"/>
+            </div>
+            <div class="button-container">
+              <a class="button button-prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+              <a class="button button-next" onclick="plusSlides(1, 1)">&#10095;</a>  
+            </div>
+          </div>
           <p>Check code on: <a href="https://github.com/reinikeda" target="_blank"><img src="img/github.png" /></a></p>
         </div>
       </div>
+      <script src="slider.js"></script>
     </main>
     <footer>
       <p>&copy; 2023 Daiva Reinikė</p>
