@@ -219,6 +219,7 @@ h1 {
 .section {
   padding: 4.5rem 0;
   border-top: 1px solid var(--line);
+  scroll-margin-top: 5rem;
 }
 
 .section-label {
@@ -257,8 +258,8 @@ h1 {
 .capability-grid li,
 .stack-grid article {
   padding: 1.5rem 1.45rem;
-  background: rgba(22, 20, 18, 0.78);
-  border: 1px solid var(--line);
+  background: #1a1714;
+  border: 1px solid rgba(243, 238, 230, 0.14);
   border-radius: var(--radius);
 }
 
@@ -287,11 +288,11 @@ h1 {
 
 .stack-grid li {
   padding: 0.38rem 0.72rem;
-  color: var(--muted);
+  color: var(--ink);
   font-size: 0.9rem;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(243, 238, 230, 0.14);
   border-radius: 999px;
-  background: rgba(12, 11, 10, 0.45);
+  background: rgba(12, 11, 10, 0.55);
 }
 
 .site-footer {
@@ -311,6 +312,10 @@ h1 {
 @media (max-width: 840px) {
   .wrap {
     width: min(calc(100% - 1.5rem), var(--wrap));
+  }
+
+  .wordmark {
+    font-size: 1.05rem;
   }
 
   .hero {
