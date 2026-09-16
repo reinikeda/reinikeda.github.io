@@ -1,2 +1,3 @@
 # reinikeda.github.io
-My portfolio webpage
+
+Personal one-page site for Daiva Reinikė, Full-Stack Developer & Technical SEO Specialist.
